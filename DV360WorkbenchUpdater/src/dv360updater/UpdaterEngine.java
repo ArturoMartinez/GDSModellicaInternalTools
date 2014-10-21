@@ -60,9 +60,10 @@ public class UpdaterEngine extends SwingWorker{
         _global.setValue(0);
         while (extensions.hasNext()){
             String extension = extensions.next();
-            _log.debug("Start coping all \""+extension+"\" file/s");
-            _global.setString("Step: "+_global.getValue()+1+"/"+_extensions.size()+" / Coping \""+extension+"\" file/s");
-            _global.setValue(_global.getValue()+1);
+            String step = String.valueOf(_global.getValue()+1);
+            _log.debug("["+step+"/"+_extensions.size()+"] Start coping all \""+extension+"\" file/s");
+            _global.setString("Step: "+step+"/"+_extensions.size()+" / Coping \""+extension+"\" file/s");
+            _global.setValue(Integer.parseInt(step));;
             _global.repaint();
             copyFilesByExtension(filesInDir, extension);
         }//while
@@ -95,10 +96,12 @@ public class UpdaterEngine extends SwingWorker{
         _log.debug("Coping "+file.getName());
         byte[] buffer = new byte[1024];
         int length;
+        int status = 0;
         while((length = is.read(buffer)) > 0){
             os.write(buffer, 0, length);
-            _status.setString("Coping: "+file.getName()+" - "+length+"/"+_status.getMaximum()+" bytes");
-            _status.setValue(_status.getValue()+length);
+            status += length;
+            _status.setString("Coping: "+file.getName()+" - "+status+"/"+_status.getMaximum()+" bytes");
+            _status.setValue(status);
             _status.repaint();
         }//while
         is.close();
