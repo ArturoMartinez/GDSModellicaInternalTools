@@ -1,0 +1,62 @@
+21/10/2014 11:08:02.643 - [INFO] :: Starting DV360 Updater GUI.
+21/10/2014 11:08:02.643 - [INFO] :: GUI set undecorated.
+21/10/2014 11:08:02.643 - [INFO] :: GUI set bounds.
+21/10/2014 11:08:02.643 - [INFO] :: GUI set title.
+21/10/2014 11:08:02.643 - [INFO] :: GUI set close operation.
+21/10/2014 11:08:02.643 - [INFO] :: GUI set resizable.
+21/10/2014 11:08:02.643 - [INFO] :: GUI set environments vars.
+21/10/2014 11:08:02.673 - [INFO] :: Get DV360 Updates versions.
+21/10/2014 11:08:02.693 - [FINE] :: Found 4 available versions.
+21/10/2014 11:08:02.693 - [INFO] :: GUI set background image.
+21/10/2014 11:08:02.713 - [INFO] :: GUI set items.
+21/10/2014 11:08:02.783 - [INFO] :: GUI center.
+21/10/2014 11:08:02.803 - [INFO] :: Opening window
+21/10/2014 11:08:10.833 - [FINE] :: UpdaterEngine will copy 5 type of files.
+21/10/2014 11:08:10.833 - [FINE] :: UpdaterEngine will copy 1.8.8.178 DV360 version.
+21/10/2014 11:08:10.833 - [FINE] :: UpdaterEngine will copy files to "C:\Users\GDSModellica\Desktop\test" folder.
+21/10/2014 11:08:10.843 - [FINE] :: Source folder: "P:\DV 360\Software\DV360 Multi user\Dataview360-1.8.8.178"
+21/10/2014 11:08:10.843 - [FINE] :: [1/5] Start coping all "xml" file/s
+21/10/2014 11:08:10.943 - [FINE] :: Coping Npgsql.xml
+21/10/2014 11:08:11.053 - [FINE] :: Coping Newtonsoft.Json.xml
+21/10/2014 11:08:11.113 - [FINE] :: Coping Npgsql.EntityFrameworkLegacy.xml
+21/10/2014 11:08:11.513 - [FINE] :: Coping NHibernate.xml
+21/10/2014 11:08:11.673 - [FINE] :: Coping Iesi.Collections.xml
+21/10/2014 11:08:11.673 - [FINE] :: [2/5] Start coping all "dll" file/s
+21/10/2014 11:08:11.993 - [FINE] :: Coping itextsharp.dll
+21/10/2014 11:08:12.353 - [FINE] :: Coping ActiproSoftware.SyntaxEditor.Addons.Web.Net20.dll
+21/10/2014 11:08:12.503 - [FINE] :: Coping System.Runtime.InteropServices.APIs.dll
+21/10/2014 11:08:12.533 - [FINE] :: Coping DiffPlex.dll
+21/10/2014 11:08:12.663 - [FINE] :: Coping ActiproSoftware.SyntaxEditor.Addons.DotNet.Net20.dll
+21/10/2014 11:08:12.863 - [FINE] :: Coping ADObjSelector.dll
+21/10/2014 11:08:13.043 - [FINE] :: Coping Mono.Security.dll
+21/10/2014 11:08:13.223 - [FINE] :: Coping ActiproSoftware.SyntaxEditor.Net20.dll
+21/10/2014 11:08:13.503 - [FINE] :: Coping GDSSystemClass.dll
+21/10/2014 11:08:13.843 - [FINE] :: Coping ActiproSoftware.WinUICore.Net20.dll
+21/10/2014 11:08:14.003 - [FINE] :: Coping LuaInterface.dll
+21/10/2014 11:08:14.153 - [FINE] :: Coping GDSLink.Licensing.dll
+21/10/2014 11:08:14.333 - [FINE] :: Coping GDSControlLibrary.dll
+21/10/2014 11:08:14.613 - [FINE] :: Coping Iesi.Collections.dll
+21/10/2014 11:08:14.753 - [FINE] :: Coping Npgsql.EntityFrameworkLegacy.dll
+21/10/2014 11:08:14.953 - [FINE] :: Coping SourceGrid.dll
+21/10/2014 11:08:15.143 - [FINE] :: Coping NSpring.dll
+21/10/2014 11:08:15.323 - [FINE] :: Coping DV360Database.dll
+21/10/2014 11:08:15.483 - [FINE] :: Coping MySql.Data.dll
+21/10/2014 11:08:15.673 - [FINE] :: Coping DV360DatabaseControls.dll
+21/10/2014 11:08:15.893 - [FINE] :: Coping Npgsql.dll
+21/10/2014 11:08:16.073 - [FINE] :: Coping LuaNet.dll
+21/10/2014 11:08:16.163 - [FINE] :: Coping ActiproSoftware.Shared.Net20.dll
+21/10/2014 11:08:16.343 - [FINE] :: Coping System.Windows.Forms.TreeListView.dll
+21/10/2014 11:08:16.353 - [FINE] :: Coping Interop.IasHelperLib.dll
+21/10/2014 11:08:16.813 - [FINE] :: Coping NHibernate.dll
+21/10/2014 11:08:17.303 - [FINE] :: Coping Newtonsoft.Json.dll
+21/10/2014 11:08:17.323 - [FINE] :: [3/5] Start coping all "xslt" file/s
+21/10/2014 11:08:17.333 - [FINE] :: Coping xmlSP2csv.xslt
+21/10/2014 11:08:17.333 - [FINE] :: Coping xmlDD2csv.xslt
+21/10/2014 11:08:17.343 - [FINE] :: Coping xmlLB2csv.xslt
+21/10/2014 11:08:17.353 - [FINE] :: Coping XSLTExcelFile.xslt
+21/10/2014 11:08:17.363 - [FINE] :: Coping TempXSLTExcelFile.xslt
+21/10/2014 11:08:17.363 - [FINE] :: [4/5] Start coping all "DataView360Workbench.exe" file/s
+21/10/2014 11:08:17.553 - [FINE] :: Coping DataView360Workbench.exe
+21/10/2014 11:08:17.843 - [FINE] :: [5/5] Start coping all "DataView360Workbench.exe.config" file/s
+21/10/2014 11:08:17.853 - [FINE] :: Coping DataView360Workbench.exe.config
+21/10/2014 11:08:19.963 - [INFO] :: DV360 Workbench has been updated!
